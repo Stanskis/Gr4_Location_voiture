@@ -1,0 +1,20 @@
+@import "./node_modules/bootstrap/scss/functions";
+
+//override bs variables
+$primary: #27374D;
+$secondary: #526D82;
+$success: #9DB2BF;
+$light: #DDE6ED;
+
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/variables-dark";
+
+//override bs map
+$custom-theme-colors: (
+    primary: $primary,
+    secondary: $secondary,
+    success: $success,
+    light: $light,
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
