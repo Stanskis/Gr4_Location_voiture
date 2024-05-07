@@ -7,7 +7,6 @@ export default class CatalogueScreen extends HTMLElement{
 
     render(){
         return `
-        <body>
         <div class="container-sm">
           <div>
             <form class="d-flex">
@@ -343,7 +342,6 @@ export default class CatalogueScreen extends HTMLElement{
             </div>
            </div>
       </a> 
-      </body>
         `
     }
 }
