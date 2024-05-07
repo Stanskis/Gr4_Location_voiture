@@ -67,7 +67,7 @@ export default class HomeScreen extends HTMLElement{
                 <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
                 <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
                 </svg> Location voiture courte et moyenne durée pour vos voyages en France</h4> 
-                <p>Flexibilité inégalée permettant de s'adapter à vos besoins de voyage à travers des villes comme Paris, Lyon et Marseille.
+                <p>Flexibilité inégalée permettant de s'adapter à vos besoins de voyage à travers des villes comme Paris, Roubaix et Marseille.
                     Tarifs compétitifs offrant une alternative économique aux acteurs traditionnels de la location de voiture.
                     Assistance client premium garantissant une expérience sans souci durant toute la période de location.</p>
             </div>
@@ -86,7 +86,7 @@ export default class HomeScreen extends HTMLElement{
                  <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
              </svg> Sélection variée de voitures à louer chez Notre Entreprise</h4>
                 <p>Large gamme de véhicules répondant à tous les besoins : des citadines compactes comme pour vos déplacements urbains, jusqu'aux voitures de luxe et SUV pour voyager en style et confort.
-                    Options écologiques disponibles, y compris des modèles électriques ou hybride, pour réduire votre empreinte carbone tout en explorant des villes comme Nice ou Annecy.</p>
+                    Options écologiques disponibles, y compris des modèles électriques ou hybride, pour réduire votre empreinte carbone tout en explorant des villes comme Nice ou Roubaix.</p>
             </div>
             <div class="item4 p-3 col-6">
                 <h4 class="p-2 m-3 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-check-square mb-1" viewBox="0 0 16 16">
