@@ -1,0 +1,71 @@
+.login-button{
+    background-color: #27374D;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover{
+    background-color: #526D82;
+}
+
+.navbar{
+    background-image: url(/src/assets/images/360_F_384115163_mmVA7l40gCr4GdJm2TMYHVsgYecqU7Y6.jpg);
+    background-size: cover;
+    height: 175px;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.25em black;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    color:#27374D;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: #526D82 !important;
+}
+
+.nav-link.active{
+    color: black;
+}
+
+@media (min-width: 991px){
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #27374D;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+#app {
+    margin-top: 175px;
+    box-shadow: 0 0 0.25em black;
+    min-height: 85vh;
+}
