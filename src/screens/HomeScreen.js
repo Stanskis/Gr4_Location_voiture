@@ -8,14 +8,14 @@ export default class HomeScreen extends HTMLElement{
 
     render(){
         return `
-        <style>@import "./src/screens/styles/HomeScreen.css"</style>
+        <style>@import "./src/styles/HomeScreen.css"</style>
         <main class="bg-light rounded-2 d-flex flex-column overhidden">
             <div class="container-fluid p-5 mt-3">
                 <div class="row">
                     <div class="col-12">
                         <div class="items__body p-5 text-center text-white rounded-4 bg-primary py-3 d-flex justify-content-around">
                             <div class="items__image py-4">
-                            <img src="./src/screens/images/location-voiture-vacances.webp" alt="">
+                            <img src="./src/images/location-voiture-vacances.webp" alt="">
                             </div>
                             <div class="items__text p-4 d-flex flex-column justify-content-center align-items-center">
                                 <div class="title"><h1>Location Voiture</h1></div>
@@ -48,7 +48,7 @@ export default class HomeScreen extends HTMLElement{
                               <button class="btn btn-secondary my-3" type="submit">Prendre un Rendez-vous!</button>
                             </div>
                             <div class="items__image py-4">
-                                <img src="./src/screens/images/img2.png" alt="">
+                                <img src="./src/images/img2.png" alt="">
                             </div>
                         </div>
                     </div>
