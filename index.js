@@ -1,6 +1,6 @@
 import App from "./src/App.js";
-import Voiture from "./src/screens/voiture.js";
-import Catalogue from "./src/screens/Catalogue.js";
+import Voiture from "./src/models/voiture.js";
+import Catalogue from "./src/models/Catalogue.js";
 import VoitureService from "./src/services/VoitureService.js";
 import CatalogueService from "./src/services/CatalogueService.js";
 const app = new App();

@@ -13,8 +13,8 @@ export default class Catalogue{
     get id() {return this.#id}
     set id(value) {this.#id = value }
     
-    get isDelete() {return this.#isDelete}
-    set isDelete(value) {this.#isDelete = value }
+    get isDeleted() {return this.#isDeleted}
+    set isDeleted(value) {this.#isDeleted = value }
     
     get nom() {return this.#nom}
     set nom(value) {this.#nom = value }
