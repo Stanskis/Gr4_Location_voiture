@@ -4,43 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Location Voiture</title>
-    <link rel="stylesheet" href="./src/">
+    <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
 </head>
 <body>
     <header class="bg-primary">
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand me-auto" href="#"></a>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/" data-link >Acceuil</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/catalogue" data-link >Catalogue</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/reservation" data-link >Réservation</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <a href="#" class="login-button">Connexion</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#"><imgW
+            src="./src/images/rental-car-business-logo-sun-600nw-2209293149-removebg-preview.png" height="150px"
+            alt="logo"></a>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-          </nav>
-      </header>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/" data-link>Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/catalogue" data-link>Catalogue</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/reservation" data-link>Réservation</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+          <a href="#" class="login-button">Connexion</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
     <div id="app">
     </div>
 
+    <footer class="bg-secondary">
+      <div id="footer" class="container-fluid">
+        <div class="row">
+          <div class="col-1 text-center">
+              Suivez-nous
+              <br>
+              <a href="#"><img class="logos-socials" src="./src/images/facebook.png" alt="logo-facebook"></a>
+              <a href="#"><img class="logos-socials" src="./src/images/twitter.png" alt="logo-twitter"></a>
+              <a href="#"><img class="logos-socials" src="./src//images/youtube.png" alt="logo-youtube"></a>
+              <a href="#"><img class="logos-socials" src="./src/images/instagram.png" alt="logo-instagram"></a>
+              <a href="#"><img class="logos-socials" src="./src/images/linkedin.png" alt="logo-linkedin"></a>
+          </div>
+          <!-- <div id="link-footer" class="col-2 gx-5">
+              <a href="#">À propos</a>
+              <br><br>
+              <a href="#">Contactez-nous</a>
+              <br><br>
+              <a href="#">Mentions légales</a>
+              <br><br>
+              <a href="#">Politique relative aux cookies</a>
+              <br><br>
+              <a href="#">Politique de confidentialité</a>
+              <br><br>
+          </div>
+          <div class="col-5 text-center">
+            <div class="justify-content-center">
+              City Car Rentals Apps.
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3">
+                <a href="#"><img id="logo-footer" src="src/images/rental-car-business-logo-sun-600nw-2209293149.webp" alt="logo"></a>
+              </div>
+              <div class="col-3">
+                <div class="row">
+                  <a href="#"><img class="logo-store" src="./src/images/appStore.webp" alt=""></a>
+                </div>
+                <div class="row">
+                  <a href="#"><img class="logo-store" src="./src/images/googlePlay.webp" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <hr>
+        <div id="copyright" class="row justify-content-center">
+          Copyright 2024, City Car Rentals ©
+        </div>
+      </div>
+    </footer>
     <script type="module" src="index.js"></script>
     
 </body>

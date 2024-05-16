@@ -1,4 +1,3 @@
-
 export default class HomeScreen extends HTMLElement{
 
     constructor(){

@@ -18,7 +18,7 @@ export default class HeaderComponent extends HTMLElement{
         return `<header class="bg-primary">
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand me-auto" href="#"><img src="src/assets/images/rental-car-business-logo-sun-600nw-2209293149-removebg-preview.png" height="150px" alt="logo"></a>
+              <a class="navbar-brand" href="#"><img src="src/assets/images/rental-car-business-logo-sun-600nw-2209293149-removebg-preview.png" height="150px" alt="logo"></a>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="src/assets/images/rental-car-business-logo-sun-600nw-2209293149-removebg-preview.png" height="150px" alt="logo"></h5>
