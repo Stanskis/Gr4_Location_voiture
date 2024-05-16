@@ -1,6 +1,8 @@
 import App from "./App.js";
 import HomeScreen from "./screens/HomeScreen.js";
 import CatalogueScreen from "./screens/CatalogueScreen.js";
+import ReservationScreen from "./screens/ReservationScreen.js";
+=======
 import LoginScreen from "./screens/LoginScreen.js";
 import CreateAccountScreen from "./screens/CreateAccountScreen.js";
 
@@ -39,7 +41,7 @@ export default class Router{
         }
         else if(location.pathname == "/reservation"){
             document.title = "Location Voiture - Reservation";
-            page = `<h1>Reservation</h1>`;
+            page = new ReservationScreen();
         }
         else if(location.pathname == "/login"){
             document.title = "Location Voiture - Login";
