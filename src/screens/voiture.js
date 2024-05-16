@@ -1,31 +1,48 @@
 export default class Voiture {
-id;
-transmition;
-prix;
-moteur;
+#id;
+#isDeleted;
+#transmition;
+#prix;
+#moteur;
+#nom;
 
-constructor(obj) {
-    const {id, transmition, prix, moteur} = obj;
-    this.id = id;
+constructor(props) {
+    const {id, isDeleted, transmition, prix, moteur,nom} = props;
+    this.id = id || "";
+    this.isDeleted = isDeleted || false;
     this.transmition = transmition;
-    this.prix = prix;
+    this.prix = prix || 0;
     this.moteur = moteur;
+    this.nom = nom;
 };
 
-getId() {
-    return this.id;
-}
+get id() {return this.#id}
+set id(value) {this.#id = value}
 
-getTransmition() {
-    return this.transmition;
-}
+get isDelete() {return this.#isDeleted}
+set isDelete(value) {this.#isDeleted = value}
 
-getPrix() {
-    return this.prix;
-}
+get transmition() {return this.#transmition}
+set transmition(value) {this.#transmition = value}
 
-getMoteur() {
-    return this.moteur;
-}
+get prix() {return this.#prix}
+set prix(value) {this.#prix = value}
 
+get moteur() {return this.#moteur}
+set moteur(value) {this.#moteur = value}
+
+get nom() {return this.#nom}
+set nom(value) {this.#nom = value}
+
+toJSON(){
+    const jsonObj = {
+        id: this.id,
+        isDeletedth: this.isDeleted,
+        transmition: this.transmition,
+        prix: this.prix,
+        moteur: this.moteur,
+        nom: this.nom
+    }
+    return jsonObj;
+}
 }

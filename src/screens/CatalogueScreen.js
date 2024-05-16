@@ -1,8 +1,15 @@
+import CatalogueService from "./src/services/CatalogueService.js";
+
 export default class CatalogueScreen extends HTMLElement{
 
-    constructor(){
-        super();
+    #catalogueService;
+    constructor(props){
+        super(props);
+
         this.innerHTML = this.render();
+
+        this.#catalogueService = new CatalogueService();
+        const catalogues = this.#catalogueService.read();
     }
 
     render(){
