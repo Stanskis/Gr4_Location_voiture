@@ -54,4 +54,24 @@
 #link-footer a:active {
     text-decoration: none;
     color:orange;
+} 
+
+#login-div a:link {
+    color:#27374D;
+    text-decoration: none;
+}
+  
+#login-div a:visited {
+    text-decoration: none;
+    color:#27374D;
+}
+  
+#login-div a:hover {
+    text-decoration: none;
+    color: orange;
+}
+  
+#login-div a:active {
+    text-decoration: none;
+    color:orange;
 }
