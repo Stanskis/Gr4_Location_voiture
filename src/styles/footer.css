@@ -1,0 +1,77 @@
+#footer {
+    background-color: #27374D;
+    color: white;
+    font-weight: 700;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0 0 0.25em black;
+}
+
+#img-footer {
+    height: 150px;
+    width: 175px;
+}
+
+#copyright {
+    background-color: BL;
+}
+
+.logos-socials {
+    height: 30px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#logo-footer {
+    height: 95px;
+    width: auto;
+    border-radius: 20px;
+    margin: 10px 0px 10px 10px;
+}
+
+.logo-store {
+    height: 38px;
+    width: 130px;
+    margin: 10px 10px 10px 0px;
+}
+
+#link-footer a:link {
+    color: white;
+    text-decoration: none;
+}
+  
+#link-footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+#link-footer a:hover {
+    text-decoration: none;
+    color: orange;
+}
+  
+#link-footer a:active {
+    text-decoration: none;
+    color:orange;
+} 
+
+#login-div a:link {
+    color:#27374D;
+    text-decoration: none;
+}
+  
+#login-div a:visited {
+    text-decoration: none;
+    color:#27374D;
+}
+  
+#login-div a:hover {
+    text-decoration: none;
+    color: orange;
+}
+  
+#login-div a:active {
+    text-decoration: none;
+    color:orange;
+}
